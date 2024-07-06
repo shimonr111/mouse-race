@@ -1,0 +1,166 @@
+/*CSS for Game page*/
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .game-area {
+    position: relative;
+    width: 700px;
+    height: 400px;
+  }
+  
+  .element {
+    transition: all 1s ease-in-out; /*make the movement smooth*/
+  }
+
+/*CSS for side menu*/
+nav {
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%;
+  padding: 20px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/*CSS for table*/
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+/*CSS for button Start*/
+.button-start {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1-start {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1-start:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button1-start:disabled {
+  background-color: #ccc; /* Gray background */
+  color: #666; /* Darker gray text */
+  border-color: #ccc; /* Matching border color */
+}
+
+/*CSS for button submit*/
+.button-submit {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin-left: 2px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  height: 20%;
+}
+
+.button-submit:hover,
+.button-submit:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-submit:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-submit:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+/*CSS for content of page*/
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*CSS for input*/
+input[type=text], select {
+  width: 37%;
+  height: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+

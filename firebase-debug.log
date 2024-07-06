@@ -1,0 +1,21 @@
+[debug] [2024-07-06T06:10:16.176Z] ----------------------------------------------------------------------
+[debug] [2024-07-06T06:10:16.211Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shimo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-06T06:10:16.215Z] CLI Version:   13.13.0
+[debug] [2024-07-06T06:10:16.217Z] Platform:      win32
+[debug] [2024-07-06T06:10:16.218Z] Node Version:  v20.15.0
+[debug] [2024-07-06T06:10:16.219Z] Time:          Sat Jul 06 2024 09:10:16 GMT+0300 (שעון ישראל (קיץ))
+[debug] [2024-07-06T06:10:16.221Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-06T06:10:16.253Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-06T06:10:16.255Z] > authorizing via signed-in user (shimonr111@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\shimo\mouse-race
+
